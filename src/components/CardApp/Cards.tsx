@@ -16,8 +16,8 @@ const Cards: React.FC<Props> = ({
   range,
 }) => {
   return (
-    <div>
-      <li className="border-gray-200 border-2 shadow-md p-3 my-10 lg: md:my-2 md:w-80 xl:w-96 ">
+    <>
+      <li className="border-gray-200 border shadow-card p-3 py-5 md:my-2 md:w-80 xl:w-96 rounded">
         <GoogleFontLoader fonts={[{ font: `${family}` }]} />
         <div className="flex justify-between font-medium ">
           <h1 className="text-sm">{family}</h1>
@@ -41,12 +41,12 @@ const Cards: React.FC<Props> = ({
           aria-label={`Police ${family}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-red-500 underline"
+          className="text-blue-500 underline"
         >
-          Voir sur Google Fonts (ouvre un nouveau tab)
+          Voir la police sur Google Fonts
         </a>
       </li>
-    </div>
+    </>
   );
 };
 

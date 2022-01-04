@@ -14,7 +14,7 @@ const InputText: React.FC<Props> = ({ text, setText }) => {
     <div className="pt-8">
       <h1 className="pb-2 font-bold">Tapez votre texte</h1>
       <textarea
-        className="w-full pb-10 border-gray-400 border-2 rounded "
+        className="w-full border-gray-400 border rounded p-2"
         onChange={(e) => textHandler(e)}
         value={text}
       />
