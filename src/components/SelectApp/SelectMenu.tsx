@@ -13,7 +13,7 @@ const SelectMenu: React.FC<Props> = ({ setPolice }) => {
     <form className="">
       <h1 className="font-bold pb-2">Afficher les polices</h1>
       <select
-        className="rounded w-full border p-2 border-gray-400 "
+        className="rounded w-full border p-2 border-gray-400"
         onChange={(e) => policeHandler(e)}
       >
         <option value="popularity">Les plus populaires</option>

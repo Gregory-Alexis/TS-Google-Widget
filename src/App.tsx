@@ -25,9 +25,9 @@ const App: React.FC = () => {
     fetchData();
   }, [police]);
   return (
-    <div style={{ fontFamily: "Roboto" }} className="min-h-5">
+    <div style={{ fontFamily: "Roboto" }}>
       <Header />
-      <div className="p-5 md:p-10 lg:flex lg:justify-center">
+      <div className="p-5 md:p-10 xl:flex xl:justify-center">
         <SelectApp
           setPolice={setPolice}
           text={text}
