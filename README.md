@@ -40,15 +40,19 @@ npm start
   const [range, setRange] = useState<number>(20);
 
     const fetchData = async () => {
+
       try {
         const result = await axios.get(
           `https://webfonts.googleapis.com/v1/webfonts?sort=${police}&key=${process.env.REACT_APP_FONT_WIDGET}`
         );
         setData(result.data.items.slice(0, 10));
+        // Affichera les 10 premiers éléments
       } catch (error: any) {
         console.log(error.message);
       }
+
     };
+
     fetchData();
   }, [police]);
 
@@ -67,10 +71,12 @@ interface Props {
 }
 
 const InputText: React.FC<Props> = ({ text, setText }) => {
+
   const textHandler = (e: React.FormEvent) => {
     e.preventDefault();
     setText((e.target as HTMLInputElement).value);
   };
+
   return (
     <div className="pt-8">
       <h1 className="pb-2 font-bold">Tapez votre texte</h1>
