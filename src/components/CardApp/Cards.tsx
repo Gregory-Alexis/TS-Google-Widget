@@ -17,7 +17,7 @@ const Cards: React.FC<Props> = ({
 }) => {
   return (
     <>
-      <li className="border-gray-200 border shadow-card p-3 py-5 my-5  rounded ">
+      <li className="border-gray-200 border shadow-card p-3 py-5 my-5 rounded ">
         <GoogleFontLoader fonts={[{ font: `${family}` }]} />
         <div className="flex justify-between font-medium">
           <h1 className="text-sm">{family}</h1>

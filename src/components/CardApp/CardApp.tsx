@@ -8,7 +8,7 @@ interface Props {
 
 const CardApp: React.FC<Props> = ({ data, range, text }) => {
   return (
-    <ul className="md:grid md:grid-cols-2 md:gap-3 xl:ml-20 xl:w-6/12">
+    <ul className="md:grid md:grid-cols-2 md:gap-3 xl:w-6/12 xl:ml-20 ">
       {data.map((el: any) => (
         <Cards
           key={el.family}
