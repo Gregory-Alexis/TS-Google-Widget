@@ -13,7 +13,7 @@ npm start
 
 ## Composants
 
-### Fetch des données avec axios ( seul les 10 premiers résultats seront affiché ).
+### Fetch des données avec axios ( seul les 10 premiers éléments seront affiché ).
 
 ```javascript
 // App.tsx
