@@ -40,6 +40,8 @@ npm start
 
 ### Création des formulaires.
 
+**Formulaire de type text**
+
 ```js
 // InputText.tsx
 
@@ -66,6 +68,8 @@ const InputText: React.FC<Props> = ({ text, setText }) => {
 };
 
 ```
+
+**Formulaire de type select**
 
 ```js
 // SelectMenu.tsx
@@ -97,6 +101,8 @@ const SelectMenu: React.FC<Props> = ({ setPolice }) => {
 };
 
 ```
+
+**Formulaire de type range**
 
 ```js
 // SelectRange.tsx
