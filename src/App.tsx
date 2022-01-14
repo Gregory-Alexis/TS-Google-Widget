@@ -24,6 +24,7 @@ const App: React.FC = () => {
     };
     fetchData();
   }, [police]);
+
   return (
     <div style={{ fontFamily: "Roboto" }}>
       <Header />
