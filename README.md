@@ -9,7 +9,7 @@
 
 - [Installation](https://github.com/Westindiess/TS-Google-Widget#installation)
 - ## [Composants](https://github.com/Westindiess/TS-Google-Widget#composants)
-  - [Fetch](<https://github.com/Westindiess/TS-Google-Widget#fetch-des-données-avec-axios).>)
+  - [Fetch](https://github.com/Westindiess/TS-Google-Widget#fetch-des-données-avec-axios)
 
 ## Installation
 
