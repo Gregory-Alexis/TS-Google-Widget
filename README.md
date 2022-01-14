@@ -13,10 +13,7 @@ Site listant les 10 polices d'écriture de **Google Font** les plus `populaire`,
 - ## [Composants](https://github.com/Westindiess/TS-Google-Widget#composants)
   - [Fetch](https://github.com/Westindiess/TS-Google-Widget#fetch-des-données-avec-axios)
   - [Formulaire](https://github.com/Westindiess/TS-Google-Widget#création-des-formulaires)
-    - [InputText](https://github.com/Westindiess/TS-Google-Widget#formulaire-de-type-text)
-    - [SelectMenu](https://github.com/Westindiess/TS-Google-Widget#formulaire-de-type-select)
   - [Cards](https://github.com/Westindiess/TS-Google-Widget#création-des-cards)
-    - [CardList](https://github.com/Westindiess/TS-Google-Widget#affichage-des-éléments-dans-les-cards)
 
 ## Installation
 
