@@ -23,9 +23,9 @@ npm install
 npm start
 ```
 
-## Composants
+## App
 
-### Fetch des données avec axios.
+Fetch des données avec axios.
 
 ```javascript
 // App.tsx
@@ -54,11 +54,9 @@ npm start
 
 ```
 
-### Création des formulaires.
+## Formulaires.
 
----
-
-**Formulaire de type text**
+Saisie du text de votre choix et visualisation avec les différentes polices.
 
 ```js
 // InputText.tsx
@@ -89,7 +87,7 @@ const InputText: React.FC<Props> = ({ text, setText }) => {
 
 ```
 
-**Formulaire de type select**
+Tri des polices entre les plus `populaires`, `récentes` et `tendances`.
 
 ```js
 // SelectMenu.tsx
@@ -122,7 +120,7 @@ const SelectMenu: React.FC<Props> = ({ setPolice }) => {
 
 ```
 
-**Formulaire de type range**
+Change la taille des polices _en px_
 
 ```js
 // SelectRange.tsx
@@ -156,9 +154,7 @@ const SelectRange: React.FC<Props> = ({ range, setRange }) => {
 
 ```
 
-### Création des Cards
-
----
+## Cards
 
 ```js
 // CardApp.tsx
