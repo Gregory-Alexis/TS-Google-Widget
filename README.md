@@ -3,6 +3,14 @@
 ![](https://img.shields.io/badge/React-17.0.2-blue)
 ![](https://img.shields.io/badge/TypeScript-v4.5.2-blue)
 
+## Description
+
+`react-ethers` was created to facilitate the use, in React, of [Ethers.js](https://docs.ethers.io/v5/) which is a library for interacting with Ethereum Blockchain. It aims to be a small dependencies which can be easily used in any React dApp.
+
+- [Installation](https://github.com/Westindiess/TS-Google-Widget#installation)
+- ## [Composants](https://github.com/Westindiess/TS-Google-Widget#composants)
+  - [Fetch](<https://github.com/Westindiess/TS-Google-Widget#fetch-des-données-avec-axios).>)
+
 ## Installation
 
 ```
@@ -13,7 +21,7 @@ npm start
 
 ## Composants
 
-### Fetch des données avec axios ( seul les 10 premiers éléments seront affiché ).
+### Fetch des données avec axios.
 
 ```javascript
 // App.tsx
