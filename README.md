@@ -5,7 +5,8 @@
 
 ## Description
 
-Site listant les 10 polices d'écriture de **Google Font** les plus `populaire`, `récentes` et les plus `tendance`
+Site listant les 10 plus `populaire`, `récentes` et `tendance` polices d'écriture de **Google Font**.  
+Il vous permet de choisir votre police d'écriture préféré.
 
 - [Installation](https://github.com/Westindiess/TS-Google-Widget#installation)
 - [Fetch data](https://github.com/Westindiess/TS-Google-Widget#app)
@@ -164,7 +165,7 @@ Change la taille des polices _en px_
 
 ### CardApp
 
-Itération sur le tableau de donnée
+Itération sur le tableau de donnée et retourne le composant **Cards**
 
 ```js
 // CardApp.tsx
@@ -195,7 +196,7 @@ const CardApp: React.FC<Props> = ({ data, range, text }) => {
 
 ### Cards
 
-Affichage des éléments dans les cards
+Affichage des cards et de leur contenu
 
 ```js
 // Cards.tsx
