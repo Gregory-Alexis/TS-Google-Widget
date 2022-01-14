@@ -8,10 +8,9 @@
 Site listant les 10 polices d'écriture de **Google Font** les plus `populaire`, `récentes` et les plus `tendance`
 
 - [Installation](https://github.com/Westindiess/TS-Google-Widget#installation)
-- ## [Composants](https://github.com/Westindiess/TS-Google-Widget#composants)
-  - [Fetch](https://github.com/Westindiess/TS-Google-Widget#fetch-des-données-avec-axios)
-  - [Formulaire](https://github.com/Westindiess/TS-Google-Widget#création-des-formulaires)
-  - [Cards](https://github.com/Westindiess/TS-Google-Widget#création-des-cards)
+- [Fetch data](https://github.com/Westindiess/TS-Google-Widget#app)
+- [Formulaire](https://github.com/Westindiess/TS-Google-Widget#formulaires)
+- [Cards](https://github.com/Westindiess/TS-Google-Widget#cards)
 
 ## Installation
 
