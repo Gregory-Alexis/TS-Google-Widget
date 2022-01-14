@@ -1,4 +1,4 @@
-# <center>**Google Font**</center>
+# <h1 align="center">**Google Font**</h1>
 
 ![](https://img.shields.io/badge/React-17.0.2-blue)
 ![](https://img.shields.io/badge/TypeScript-v4.5.2-blue)
@@ -17,8 +17,6 @@ Site listant les 10 polices d'écriture de **Google Font** les plus `populaire`,
 
 ## Installation
 
----
-
 ```
 npm install
 
@@ -26,8 +24,6 @@ npm start
 ```
 
 ## Composants
-
----
 
 ### Fetch des données avec axios.
 
@@ -59,6 +55,8 @@ npm start
 ```
 
 ### Création des formulaires.
+
+---
 
 **Formulaire de type text**
 
@@ -159,6 +157,8 @@ const SelectRange: React.FC<Props> = ({ range, setRange }) => {
 ```
 
 ### Création des Cards
+
+---
 
 ```js
 // CardApp.tsx
