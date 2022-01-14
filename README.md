@@ -54,9 +54,9 @@ Fetch des données avec axios.
 
 ```
 
-## Formulaires.
+## Formulaires
 
-Saisie du text de votre choix et visualisation avec les différentes polices.
+### InputText
 
 ```js
 // InputText.tsx
@@ -87,7 +87,9 @@ const InputText: React.FC<Props> = ({ text, setText }) => {
 
 ```
 
-Tri des polices entre les plus `populaires`, `récentes` et `tendances`.
+Saisie du text de votre choix et visualisation avec les différentes polices.
+
+### SelectMenu
 
 ```js
 // SelectMenu.tsx
@@ -120,7 +122,9 @@ const SelectMenu: React.FC<Props> = ({ setPolice }) => {
 
 ```
 
-Change la taille des polices _en px_
+Tri des polices entre les plus `populaires`, `récentes` et `tendances`.
+
+### SelectRange
 
 ```js
 // SelectRange.tsx
@@ -154,7 +158,13 @@ const SelectRange: React.FC<Props> = ({ range, setRange }) => {
 
 ```
 
+Change la taille des polices _en px_
+
 ## Cards
+
+### CardApp
+
+Itération sur le tableau de donnée
 
 ```js
 // CardApp.tsx
@@ -182,6 +192,8 @@ const CardApp: React.FC<Props> = ({ data, range, text }) => {
   );
 };
 ```
+
+### Cards
 
 Affichage des éléments dans les cards
 
