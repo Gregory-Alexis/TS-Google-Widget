@@ -19,7 +19,7 @@ const SelectRange: React.FC<Props> = ({ range, setRange }) => {
         min="8"
         max="48"
         step="1"
-        value={`${range}`}
+        value={range}
         onChange={(e) => rangeHandler(e)}
       />
     </div>
