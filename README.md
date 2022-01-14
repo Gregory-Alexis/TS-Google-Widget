@@ -5,21 +5,34 @@
 
 ## Description
 
-`react-ethers` was created to facilitate the use, in React, of [Ethers.js](https://docs.ethers.io/v5/) which is a library for interacting with Ethereum Blockchain. It aims to be a small dependencies which can be easily used in any React dApp.
+Site listant les 10 polices d'écriture de **Google Font** les plus `populaire`, `récentes` et les plus `tendance`
+
+---
 
 - [Installation](https://github.com/Westindiess/TS-Google-Widget#installation)
 - ## [Composants](https://github.com/Westindiess/TS-Google-Widget#composants)
   - [Fetch](https://github.com/Westindiess/TS-Google-Widget#fetch-des-données-avec-axios)
+  - [Formulaire](https://github.com/Westindiess/TS-Google-Widget#fetch-des-données-avec-axios)
+    - [InputText](https://github.com/Westindiess/TS-Google-Widget#formulaire-de-type-text)
+    - [SelectMenu](https://github.com/Westindiess/TS-Google-Widget#formulaire-de-type-select)
+    - [SelectRange](https://github.com/Westindiess/TS-Google-Widget#formulaire-de-type-range)
+- ## [Cards](https://github.com/Westindiess/TS-Google-Widget#création-des-cards)
+  - [CardList](https://github.com/Westindiess/TS-Google-Widget#affichage-des-éléments-dans-les-cards)
 
 ## Installation
 
+---
+
 ```
 npm install
+
 
 npm start
 ```
 
 ## Composants
+
+---
 
 ### Fetch des données avec axios.
 
@@ -147,6 +160,8 @@ const SelectRange: React.FC<Props> = ({ range, setRange }) => {
 ### Création des Cards
 
 ```js
+// CardApp.tsx
+
 interface Props {
   data: [];
   text: string;
@@ -174,6 +189,8 @@ const CardApp: React.FC<Props> = ({ data, range, text }) => {
 Affichage des éléments dans les cards
 
 ```js
+// Cards.tsx
+
 interface Props {
   family: string;
   variants: string;
